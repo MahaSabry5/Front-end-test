@@ -11,6 +11,8 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" />
     <link href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.5.0/css/flag-icon.min.css" rel="stylesheet" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/css/intlTelInput.css" />
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/intlTelInput.min.js"></script>
 
     <?php
@@ -137,7 +139,7 @@
                                                 <div><input type="text" value="" name="stadt" id="stadt" placeholder="City" class="form-control" fdprocessedid="oebqx"></div>
                                             </div>
                                             <div class="col col-sm-4 form-group">
-                                                <div><select name="land" id="land" placeholder="Country" class="form-control" fdprocessedid="xnkhft">
+                                                <div><select name="land" id="land" placeholder="Country" class="form-control dropdown-arrow" fdprocessedid="xnkhft">
                                                         <option selected="" value="">Country</option>
                                                         <option value="egypt">Egypt</option>
                                                         <option value="uae">UAE</option>
