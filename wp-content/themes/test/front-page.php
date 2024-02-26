@@ -6,15 +6,6 @@
     <meta name="viewport" content="width=device-width">
     <meta charset="utf-8">
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css" rel="stylesheet" />
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" />
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.5.0/css/flag-icon.min.css" rel="stylesheet" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/css/intlTelInput.css" />
-    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/intlTelInput.min.js"></script>
-
     <?php
     wp_head();
     ?>
@@ -139,7 +130,7 @@
                                                 <div><input type="text" value="" name="stadt" id="stadt" placeholder="City" class="form-control" fdprocessedid="oebqx"></div>
                                             </div>
                                             <div class="col col-sm-4 form-group">
-                                                <div><select name="land" id="land" placeholder="Country" class="form-control dropdown-arrow" fdprocessedid="xnkhft">
+                                                <div><select name="land" id="land" placeholder="Country" class="form-control " fdprocessedid="xnkhft">
                                                         <option selected="" value="">Country</option>
                                                         <option value="egypt">Egypt</option>
                                                         <option value="uae">UAE</option>
@@ -180,7 +171,7 @@
                                             <div class="du-mid du col-4 col-sm-4">9 <!-- -->Months</div>
                                             <div class="du-mid du col-4 col-sm-4">12 <!-- -->Months</div>
                                             <div class="du-mid du col-4 col-sm-4">18 <!-- -->Months</div>
-                                            <div class="du-right du col-4 col-sm-4">24 <!-- -->Months</div>
+                                            <div class="du-mid du col-4 col-sm-4">24 <!-- -->Months</div>
                                             <div class="du-mid du col-4 col-sm-4">36 <!-- -->Months</div>
                                         </div>
                                     </div>
@@ -243,30 +234,8 @@
             </form>
         </div>
     </div>
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-    <script>
-        $('.phone1').attr('placeholder', " ");
-        $('.phone2').attr('placeholder', " ");
-
-
-        const phoneInputField1 = document.querySelector(".phone1");
-        const phoneInputField2 = document.querySelector(".phone2");
-        $(document).ready(function() {
-            $(".iti").width('100%');
-
-        });
-
-
-        const phoneInput1 = window.intlTelInput(phoneInputField1, {
-            utilsScript: "https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/utils.js",
-        });
-        const phoneInput2 = window.intlTelInput(phoneInputField2, {
-            utilsScript: "https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/utils.js",
-        });
-    </script>
 
 </body>
+
 
 </html>
